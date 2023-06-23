@@ -2,9 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
 /*
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	)
 */
 
 html, body, div, span, applet, object,
@@ -99,7 +97,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #ecf5ff;
+		background-color: #ffffff;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -177,12 +175,12 @@ input, select, textarea {
 
 	p {
 		text-align: justify;
-		margin: 0 0 2rem 0;
+		margin: -2rem 0 2rem 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-weight: 900;
+		font-weight: 300;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
 		text-transform: uppercase;
@@ -2915,7 +2913,7 @@ input, select, textarea {
 			display: block;
 			font-size: 0.8rem;
 			height: 1;
-			margin: 0 0 1rem 0;
+			margin: 0 0 4rem 0;
 			position: relative;
 		}
 
@@ -2930,7 +2928,7 @@ input, select, textarea {
 		}
 
 		header > h2 + p {
-			font-size: 1rem;
+			font-size: 0.8rem;
 			margin-top: -0.75rem;
 		}
 
@@ -2955,7 +2953,8 @@ input, select, textarea {
 
 			header.major > p {
 				margin-top: 0;
-				text-align: center;
+				margin-left: 12rem;
+				text-align: left;
 			}
 
 			header.major > .date {
@@ -3234,7 +3233,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #fefefe;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg3.png");
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0)), url("../../images/bg01.png");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -3284,7 +3283,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		color: #ffffff;
+		color: #ffffff00;
 		padding: 8rem 4rem 6rem 4rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -3314,11 +3313,11 @@ input, select, textarea {
 	}
 
 		#intro input, #intro select, #intro textarea {
-			color: #ffffff;
+			color: #40ff00;
 		}
 
 		#intro a {
-			color: #ffffff;
+			color: #252525;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -3328,7 +3327,7 @@ input, select, textarea {
 			}
 
 		#intro strong, #intro b {
-			color: #ffffff;
+			color: #f90202;
 		}
 
 		#intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
@@ -3391,7 +3390,7 @@ input, select, textarea {
 		}
 
 		#intro p {
-			font-size: 1.25rem;
+			font-size: 1.5rem;
 			font-style: italic;
 			margin-top: -0.25rem;
 			text-align: center;
@@ -3480,7 +3479,7 @@ input, select, textarea {
 				}
 
 				#intro p {
-					font-size: 1rem;
+					font-size: 2rem;
 					margin-top: 0rem;
 				}
 
@@ -3606,7 +3605,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		color: #ffffff;
+		color: #18bfef;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3615,7 +3614,7 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
-		background: rgba(255, 255, 255, 0.175);
+		background: rgba(255, 255, 255, 0);
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
@@ -3711,7 +3710,7 @@ input, select, textarea {
 					-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					display: block;
-					font-size: 0.8rem;
+					font-size: 1.4rem;
 					outline: none;
 					padding: 0 2rem;
 				}
@@ -3779,7 +3778,7 @@ input, select, textarea {
 		}
 
 		#main > .post {
-			padding: 8rem 8rem 6rem 8rem ;
+			padding: 6rem 3rem 6rem 3rem ;
 		}
 
 			#main > .post header.major > .date {
@@ -3787,7 +3786,7 @@ input, select, textarea {
 			}
 
 			#main > .post header.major > h1, #main > .post header.major h2 {
-				font-size: 4rem;
+				font-size: 2 rem;
 				line-height: 1.1;
 				margin: 0 0 2rem 0;
 			}
@@ -3816,7 +3815,7 @@ input, select, textarea {
 					}
 
 					#main > .post header.major > h1, #main > .post header.major h2 {
-						font-size: 2.5rem;
+						font-size: 2rem;
 						line-height: 1.2;
 						margin: 0 0 1.5rem 0;
 					}
@@ -4337,7 +4336,7 @@ input, select, textarea {
 				#footer form label,
 				#footer h3,
 				#footer p {
-					font-size: 0.9rem;
+					font-size: 2rem;
 				}
 
 		}
@@ -4383,7 +4382,7 @@ input, select, textarea {
 		}
 
 	#copyright {
-		color: #ffffff;
+		color: #3b3b3b;
 		position: relative;
 		color: rgba(255, 255, 255, 0.25);
 		cursor: default;
@@ -4401,11 +4400,11 @@ input, select, textarea {
 	}
 
 		#copyright input, #copyright select, #copyright textarea {
-			color: #ffffff;
+			color: #3b3b3b;
 		}
 
 		#copyright a {
-			color: #ffffff;
+			color: #3b3b3b;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -4415,7 +4414,7 @@ input, select, textarea {
 			}
 
 		#copyright strong, #copyright b {
-			color: #ffffff;
+			color: #3d3d3d;
 		}
 
 		#copyright h1, #copyright h2, #copyright h3, #copyright h4, #copyright h5, #copyright h6 {
